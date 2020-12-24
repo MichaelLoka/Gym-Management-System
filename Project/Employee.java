@@ -27,13 +27,13 @@ public class Employee {
         }
     }
 
-    // private void AddMember_System(Member[] members,int MemberID){}
-    // private void EditMember_System(Member[] members,int MemberID){}
-    // private void RemoveMember_System(Member[] members,int MemberID){}
-    // private void AddMember_Session(Session[] sessions,int MemberID){}
-    // private void RemoveMember_Session(Session[] sessions,int MemberID){}
-    // private void ViewMembers_Session(Session[] sessions){}
-    // private void ViewMember_Membership(Member[] members){}
-    // private void ViewMembers_info(Member[] members){}
+    // public void AddMember_System(Member[] members,int MemberID){}
+    // public void EditMember_System(Member[] members,int MemberID){}
+    // public void RemoveMember_System(Member[] members,int MemberID){}
+    // public void AddMember_Session(Session[] sessions,int MemberID){}
+    // public void RemoveMember_Session(Session[] sessions,int MemberID){}
+    // public void ViewMembers_Session(Session[] sessions){}
+    // public void ViewMember_Membership(Member[] members){}
+    // public void ViewMembers_info(Member[] members){}
 
 }
