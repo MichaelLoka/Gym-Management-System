@@ -1,7 +1,8 @@
 package Project;
 
 public abstract class auothority {
-    //Member[] members;
+    Member[] members;
+    Session[] sessions;
     String Name;
     String Sex;
     String Address;
@@ -27,9 +28,27 @@ public abstract class auothority {
     }
 
 
-    // public void ViewMembers_Session(Session[] sessions){}
-    // public void ViewMember_Membership(Member[] members){}
-    // public void ViewMembers_info(Member[] members){}
+    public void ViewMembers_Session(Session[] sessions){
+        for (Session session : sessions) {
+            if(session != null){
+                session.display_membersInSession();
+            }
+        }
+    }
+    public void ViewMember_Membership(Member[] members,int MemberID){
+        for (Member member : members) {
+            if(member.SSN == MemberID){
+                System.out.println(member.MemberShip);
+            }
+        }
+    }
+    public void ViewMembers_info(Member[] members){
+        for (Member member : members) {
+            if (member != null) {
+                member.getMemberinfo();
+            }
+        }
+    }
 
 
 }
