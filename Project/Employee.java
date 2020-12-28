@@ -1,15 +1,11 @@
 package Project;
 
-public class Employee extends Person{
+public class Employee extends auothority{
     //Member[] members;
     //Session[] sessions;
-    int Salary;
-    String Hire_Date;
     
     public Employee(String Name, int Salary, int SSN, String Sex, String Address, int PhoneNumber, String Hire_Date){
-        super(Name, SSN, Sex, Address, PhoneNumber);
-        this.Salary    = Salary;
-        this.Hire_Date = Hire_Date;
+        super(Name, SSN, Sex, Address, PhoneNumber, Salary, Hire_Date);
     }
 
     // public void AddMember_System(Member[] members,int MemberID){}

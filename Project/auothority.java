@@ -1,14 +1,16 @@
 package Project;
 
-public abstract class Person {
+public abstract class auothority {
     //Member[] members;
     String Name;
-    int SSN;
     String Sex;
     String Address;
-    int[] phone = new int[3];
+    String Hire_Date;
+    int[]  phone = new int[3];
+    int    SSN;
+    int Salary;
 
-    public Person(String Name, int SSN, String Sex, String Address, int PhoneNumber){
+    public auothority(String Name, int SSN, String Sex, String Address, int PhoneNumber, int Salary, String Hire_Date){
         this.Name      = Name;
         this.SSN       = SSN;
         this.Sex       = Sex;
@@ -20,6 +22,8 @@ public abstract class Person {
                 phone[i] = PhoneNumber;
             }
         }
+        this.Salary    = Salary;
+        this.Hire_Date = Hire_Date;
     }
 
 
