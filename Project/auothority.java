@@ -26,6 +26,25 @@ public abstract class auothority {
         this.Salary    = Salary;
         this.Hire_Date = Hire_Date;
     }
+    public auothority(String Name, String Sex, String Address, int PhoneNumber, int Salary, String Hire_Date){
+        this.Name      = Name;
+        this.Sex       = Sex;
+        this.Address   = Address;
+        this.Salary    = Salary;
+        this.Hire_Date = Hire_Date;
+        for (int i = 0; i < 3; i++)
+        {
+            if(phone[i] == 0)
+            {
+                phone[i] = PhoneNumber;
+            }
+        }
+        for (int i = 0; i<members.length +1;i++){
+            if(members[i] == null){
+                SSN = i;
+            }
+        }
+    }
 
 
     public void ViewMembers_Session(Session[] sessions){
