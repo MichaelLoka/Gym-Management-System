@@ -21,4 +21,8 @@ public class Session {
             }
         }
     }
+    public void displayData(){
+        System.out.println("description: "+description);
+        System.out.println("type: "+type);
+    }
 }
