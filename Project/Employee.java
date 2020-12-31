@@ -1,7 +1,7 @@
-package Project;
+package Gym_Management_System;
 
 public class Employee extends auothority{
-    //Member[] members;
+    Member[] members;
     //Session[] sessions;
     
     public Employee(String Name, int Salary, int SSN, String Sex, String Address, int PhoneNumber, String Hire_Date){
